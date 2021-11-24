@@ -15,17 +15,29 @@ h2{
     font-size: 20px;
 }
 h3{
+    
+    margin: auto;
+    width: fit-content;
     text-align: center;
     margin-top: 50px;
+    border-bottom: 2px solid white;
 }
+
 .mifoto{
     display: block;
     margin: auto;
     border-radius: 50px 0px ;
 }
 li{
-    display: inline-block;
+    display: inline-block; 
+}
+p{
+    text-align: center;
+}
+a{
+    text-decoration: none;
     
-    
-    
+}
+a:visited{
+    color: white;
 }
