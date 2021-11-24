@@ -24,8 +24,8 @@ h3{
     border-radius: 50px 0px ;
 }
 li{
-    font-style:italic;
-    text-align: center;
-    line-height: 40px;
-    list-style-type:circle
+    display: inline-block;
+    
+    
+    
 }
