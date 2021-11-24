@@ -1,5 +1,5 @@
 body{
-    font-family: sans-serif;
+    font-family: monospace, sans-serif;
     background-color: black;
     color: aliceblue;
 }
@@ -14,12 +14,18 @@ h2{
     font-size: 30px;
     font-size: 20px;
 }
+h3{
+    text-align: center;
+    margin-top: 50px;
+}
 .mifoto{
-
+    display: block;
+    margin: auto;
     border-radius: 50px 0px ;
 }
 li{
     font-style:italic;
     text-align: center;
     line-height: 40px;
+    list-style-type:circle
 }
