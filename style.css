@@ -3,16 +3,18 @@ body{
     background-color: black;
     color: aliceblue;
 }
-h1{
-    text-align: center;
-    font-weight: 100;
-    font-size: 30px;
+header{
+    display: flex;
+    justify-content: space-around;
 }
-h2{
-    text-align: center;
+h1{
+    display: flex;
+    width: 1500px;
+    align-items: center;
+    text-align: left;
     font-weight: 100;
-    font-size: 30px;
     font-size: 20px;
+    margin-left: 10px;
 }
 h3{
     
@@ -28,6 +30,22 @@ h3{
     margin: auto;
     border-radius: 50px 0px ;
 }
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 700px;
+}
+.ul-icons{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-top: 10px;
+}
+.about-me{
+    width: 70%;
+    margin: auto;
+}
 li{
     display: inline-block; 
 }
@@ -38,6 +56,10 @@ a{
     text-decoration: none;
     
 }
-a:visited{
+a, li:visited{
     color: white;
+}
+footer{
+    text-align: center;
+    margin-top: 100%;
 }
